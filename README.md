@@ -248,6 +248,7 @@ This application is for informational and educational purposes only. It is not a
 ## Contact
 
 Author: Nowshin Tabasum
+
 Email: nawshintabassum88@gmail.com
 
 For questions or support, please open an issue in the repository.
