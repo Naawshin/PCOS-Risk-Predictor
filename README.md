@@ -40,12 +40,6 @@ PCOS-Risk-Predictor/
 └── README.md
 ```
 
-## Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-- Docker (optional, for containerized deployment)
-
 ## Installation
 
 ### Local Setup
@@ -238,8 +232,6 @@ print(response.json())
 
 The predictive model is a trained machine learning classifier that has been serialized and saved as `backend/model/model.pkl`. It processes the input features to generate PCOS risk predictions.
 You can find it here: https://drive.google.com/file/d/19ZN2cZ-D7LS3SfBvlhN-3dAyNiMwQ_Sl/view?usp=sharing
-
-**Note:** The model file is not included in this repository. Please train and save your model before deployment.
 
 ## Contributing
 
