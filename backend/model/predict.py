@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 
 # Load model
-with open('model/model.pkl', 'rb') as f:
+with open('backend/model/model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 def predict_output(user_input: dict):
