@@ -33,12 +33,6 @@ if st.button("predict"):
     }
 
     # send post request to fastapi
-    try:
-        response = requests.post("http://localhost:8000/predict", json=data)
-        if response.status_code == 200:
-            result = response.json()
-            st.success(f"Prediction: {result['prediction']}")
-        else:
-            st.error(f"Error: {response.status_code} - {response.text}")
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
+    prediction = model.predict(input_df)[0]
+
+    st.success(f"Prediction: {prediction}")
