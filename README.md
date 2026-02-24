@@ -252,7 +252,3 @@ Author: Nowshin Tabasum
 Email: nawshintabassum88@gmail.com
 
 For questions or support, please open an issue in the repository.
-
----
-
-**Last Updated:** February 2026
