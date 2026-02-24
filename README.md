@@ -47,7 +47,7 @@ PCOS-Risk-Predictor/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/PCOS-Risk-Predictor.git
+git clone https://github.com/Naawshin/PCOS-Risk-Predictor.git
 cd PCOS-Risk-Predictor
 ```
 
